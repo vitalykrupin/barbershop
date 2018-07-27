@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Borodinsky</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation__site site-list">
+          <li class="site-list__item"><a>Информация</a></li>
+          <li class="site-list__item"><a>Новости</a></li>
+          <li class="site-list__item"><a>Прайс-лист</a></li>
+          <li class="site-list__item"><a>Магазин</a></li>
+          <li class="site-list__item"><a>Контакты</a></li>
+        </ul>
+
+        <ul class="navigation__user user-list">
+          <li class="user-list__item"><a>Вход</a></li>
+          <li class="user-list__item visually-hidden"><a>Выход</a></li>
+          <li class="user-list__item visually-hidden"><a>Имя Фамилия</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <a class="page-main__logo main-logo"></a>
+
+      <ul class="page-main__features features-list">
+        <li class="features-list__item">
+          <h3>Быстро</h3>
+          <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+        </li>
+
+        <li class="features-list__item">
+          <h3>Круто</h3>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+        </li>
+
+        <li class="features-list__item">
+          <h3>Дорого</h3>
+          <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+        </li>
+      </ul>
+
+      <div class="page-main__block-wrapper">
+        <div class="page-main__news news">
+          <h2 class="news__title">Новости</h2>
+
+          <ul class="news-list">
+            <li class="news-list__item news-item">
+              <p class="news-item__text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+              <p class="news-item__date">11 января</p>
+            </li>
+
+            <li class="news-list__item news-item">
+              <p class="news-item__text">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+              <p class="news-item__date">18 января</p>
+            </li>
+            <li class="news-list__item"></li>
+          </ul>
+
+          <a href="#" class="news__button button"></a>
+        </div>
+
+        <div class="page-main__photogalery photogalery">
+          <img src="" alt="">
+          <button class="photogalery__prev button"></button>
+          <button class="photogalery__next button"></button>
+        </div>
+      </div>
+
+      <div class="page-main__block-wrapper">
+        <div class="page-main__contacts contacts-main">
+          <h2 class="contacts__title">Контактная информация</h2>
+
+          <p class="contacts-main__address">
+              БАРБЕРШОП «БОРОДИНСКИЙ»
+              АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8
+              ТЕЛЕФОН: +7 (495) 666-02-66
+          </p>
+
+          <p class="contacts-main__worktime">
+              ВРЕМЯ РАБОТЫ:
+              ПН—ПТ: С 10:00 ДО 22:00
+              СБ—ВС: С 10:00 ДО 19:00
+          </p>
+
+          <button class="contacts-main__map button">Как проехать</button>
+          <button class="contacts-main__callback button">Обратная связь</button>
+        </div>
+      </div>
+
+      <div class="page-main__appointment appointment">
+        <h2 class="appointment__title">Записаться</h2>
+
+        <p class="appointment__text">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+
+        <form action="post" class="appointment__form form">
+          <ul class="form-list">
+            <li class="form-list__item date">
+              <label for="date" class="date__label form__label">Дата</label>
+              <input type="date" id="date" class="date__input form__input" name="date" placeholder="08.10.2017">
+            </li>
+
+            <li class="form-list__item time">
+              <label for="time" class="time__label form__label">Время</label>
+              <input type="time" id="time" class="time__input form__input" name="time" placeholder="10:00">
+            </li>
+
+            <li class="form-list__item name">
+              <label for="name" class="name__label form__label">Ваше имя</label>
+              <input type="text" id="name" class="name__input form__input" name="name" placeholder="Борода">
+            </li>
+
+            <li class="form-list__item phone">
+              <label for="phone" class="phone__label form__label">Телефон</label>
+              <input type="tel" id="phone" class="phone__title form__title" name="phone" placeholder="+7 123 456-78-90">
+            </li>
+          </ul>
+
+          <button type="submit" class="form__submit button button--big"></button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__contacts contacts-footer">
+        <p class="contacts-footer__text">
+          БАРБЕРШОП «БОРОДИНСКИЙ»
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+          КАК НАС НАЙТИ?
+          ТЕЛЕФОН: +7 (495) 666-02-66
+        </p>
+      </div>
+      <div class="page-footer__social social-footer">
+        <p class="social-footer__text">Давайте дружить</p>
+        <ul class="social-footer-list social-list">
+          <li class="social-list__item vkontakte"><a href="#"><span class="visually-hidden">вконтакте</span></a></li>
+          <li class="social-list__item facebook"><a href="#"><span class="visually-hidden">фейсбук</span></a></li>
+          <li class="social-list__item instagram"><a href="#"><span class="visually-hidden">инстаграм</span></a></li>
+        </ul>
+      </div>
+      <div class="page-footer__madeby madeby-footer">
+        <p class="madeby-footer__text">Разработано</p>
+        <a href="#" class="madeby-footer__button button">HTMLACADEMY</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
