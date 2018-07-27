@@ -1,8 +1,8 @@
 {
-  "name": "sedona",
+  "name": "borodinsky",
   "version": "14.0.0",
   "private": true,
-  "description": "Личный проект «Седона» от HTML Academy",
+  "description": "Barbershop Borodinsky от HTML Academy",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "8.3.x",
