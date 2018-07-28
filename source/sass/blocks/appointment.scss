@@ -1,0 +1,13 @@
+.appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 470px;
+  padding: 50px 80px 50px 80px;
+
+  &__title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 42px;
+  }
+}

@@ -1,0 +1,11 @@
+.form {
+  &__input {
+    width: 138px;
+    height: 40px;
+    border: 2px solid $black;
+  }
+
+  &__label {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.contacts-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 470px;
+  padding: 50px 32px 50px 80px;
+
+  &__title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 250px;
+    width: 5px;
+    right: 0;
+    top: 25%;
+    background-image: url("../img/gradient-index.webp");
+  }
+}

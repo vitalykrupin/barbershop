@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 470px;
-  padding: 50px 32px 50px 80px;
+  padding: 50px 80px 50px 80px;
 
   &__image {
     border: 7px $white solid;
@@ -14,9 +14,5 @@
     margin: 0;
     font-size: 30px;
     line-height: 42px;
-  }
-
-  &__prev {
-    margin-right: 18px;
   }
 }

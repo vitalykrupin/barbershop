@@ -1,0 +1,17 @@
+.form-list {
+  @include list-reset();
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    &:nth-child(2n) {
+      margin-left: 20px;
+    }
+  }
+}
