@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 20px;
+  color: $white;
+  font-weight: 700;
+  text-transform: uppercase;
+  min-height: 72px;
+
+  &__site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @include list-reset();
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @include list-reset();
+  }
+}

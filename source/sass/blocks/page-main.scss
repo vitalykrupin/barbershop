@@ -1,0 +1,12 @@
+.page-main {
+  &__block-wrapper {
+    width: 940px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    background-image: url("../img/catalog-bckgr.webp");
+    color: $black;
+  }
+}
