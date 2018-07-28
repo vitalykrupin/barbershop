@@ -1,0 +1,12 @@
+.page-footer {
+  background-color: #232323;
+  background-image: url(../img/footer-bckgr.webp);
+  min-height: 191px;
+  padding-top: 60px;
+
+  & > .container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}

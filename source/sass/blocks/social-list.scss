@@ -1,0 +1,14 @@
+.social-list {
+  @include list-reset();
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 142px;
+
+  &__item {
+    width: 43px;
+    height: 43px;
+    background-color: $black;
+  }
+}
